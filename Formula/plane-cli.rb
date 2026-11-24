@@ -6,22 +6,22 @@ class PlaneCli < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/foae/plane-cli/releases/download/v1.0.3/plane-cli_1.0.3_darwin_arm64.tar.gz"
-      sha256 "cf4c62fbb4a833d2abaab96c87729513115e12363a4ba1a43ed7fd3f9619efab"
+      url "https://github.com/foae/plane-cli/releases/download/v1.1.1/plane-cli_1.1.1_darwin_arm64.tar.gz"
+      sha256 "2586cf2730d395d2b7096de8370657261b3ee1f99f27c9504da9f99200a27740"
     end
     on_intel do
-      url "https://github.com/foae/plane-cli/releases/download/v1.0.3/plane-cli_1.0.3_darwin_amd64.tar.gz"
-      sha256 "66cf5e8cebcbfdebd0e7acf1d72bb5531fde47d04d5a919cd6f3f178135dc98b"
+      url "https://github.com/foae/plane-cli/releases/download/v1.1.1/plane-cli_1.1.1_darwin_amd64.tar.gz"
+      sha256 "54a04d3c6db6041eee6aafa52f9e461a8ae2bf5c378474d331585caad1c7aa50"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/foae/plane-cli/releases/download/v1.0.3/plane-cli_1.0.3_linux_arm64.tar.gz"
-      sha256 "0d388a4827f6f1e38f375e6f8e242bd4bb84c9b002af671db1a712c7b2773bef"
+      url "https://github.com/foae/plane-cli/releases/download/v1.1.1/plane-cli_1.1.1_linux_arm64.tar.gz"
+      sha256 "c4d0385e843836a9b61186d518dd3f20b73a82fbfa2088e8d6fad5d2aaa0f6fb"
     end
     on_intel do
-      url "https://github.com/foae/plane-cli/releases/download/v1.0.3/plane-cli_1.0.3_linux_amd64.tar.gz"
-      sha256 "4af0688ba65efba8416cb8a5fcfe7bf6d30ba7bd86d0b205ef32453d36f63b2b"
+      url "https://github.com/foae/plane-cli/releases/download/v1.1.1/plane-cli_1.1.1_linux_amd64.tar.gz"
+      sha256 "656a78e3186b2cb75e0c7582462cfb0a24a31d451017e4fb4465e613b92332f5"
     end
   end
 
